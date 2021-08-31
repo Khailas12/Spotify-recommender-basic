@@ -2,7 +2,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import random
 
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id= "ed147dfb315f4ab3a0dbbd0607667f68", client_secret="a1897520673842f99d8261a9d69e604e"))
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id= "CLIENT_ID", client_secret="CLIENT_SECRET"))
 
 class Recommender:
     def rec():
